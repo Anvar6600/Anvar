@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+.header {
+    height: 100vh;
+background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F284500.jpg&imgrefurl=https%3A%2F%2Fwallpaperaccess.com%2F1920x1080-hd-nature&tbnid=meG3rigdqwusWM&vet=12ahUKEwjP7vmfkpzyAhVWsSoKHcfdCQsQMygNegUIARDDAQ..i&docid=KRhIPcyXY0rP-M&w=1920&h=1080&q=nature%20background%20images%20hd%20desktop&ved=2ahUKEwjP7vmfkpzyAhVWsSoKHcfdCQsQMygNegUIARDDAQ);    
+background-size: cover;
+}
+
+
+
+.column {
+    float: left;
+    text-align: center;
+    border: 2px solid rgb(94, 255, 0);
+    padding: 5px;
+}
+
+@media (max-widht: 767px) {
+    .column {
+        width: 100%;
+    }
+    .header {
+        background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpaperchat.com%2Fwalls%2Ffull%2F7%2F4%2F3%2F1942655.jpg&imgrefurl=https%3A%2F%2Fwallpaperchat.com%2Fboard%2Fnature-phone-wallpapers&tbnid=p8bJqJQTJSveVM&vet=12ahUKEwi64LSxk5zyAhXVwioKHbI6BJkQMygDegUIARCwAQ..i&docid=kkZrQPDpc3V7mM&w=1080&h=1920&q=nature%20background%20images%20hd%20mobile&ved=2ahUKEwi64LSxk5zyAhXVwioKHbI6BJkQMygDegUIARCwAQ);
+    }
+}
+
+@media (min-width: 768) and (max-width: 1023px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .column {
+       width: 25%
+    }
+}
